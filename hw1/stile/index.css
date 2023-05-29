@@ -1,0 +1,46 @@
+body{
+  margin: 0px;
+  background-image: url(index_background.jpg);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#logo{
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+a{
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+article{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+p{
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 3em;
+}

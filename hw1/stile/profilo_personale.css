@@ -1,0 +1,105 @@
+body{
+  margin: 0px;
+}
+
+header{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-image: url('home_background.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#logo{
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+.welcome{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(58, 77, 102);
+  color: white;
+}
+
+#links a{
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+#separator{
+  display: inline-block;
+  height: 16px;
+  width: 1px;
+  background: currentColor;
+  color: white;
+}
+
+header::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  width: 100%;
+}
+
+#category{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(58, 77, 102);
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+.categorie{
+  color: lightblue;
+}
+
+footer{
+  height: 15vh;
+  width: 100%;
+
+  background-color: rgb(172, 81, 81);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2em;
+}
+
+footer a{
+  color: white;
+}

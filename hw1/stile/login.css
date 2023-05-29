@@ -1,0 +1,87 @@
+body {
+  background-color: #062247;
+  color: #fff;
+  margin: 0px;
+}
+
+#logo{
+  margin-top: 30px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px;
+}
+
+.errore {
+  color: red;
+}
+
+input {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#login {
+  width: 300px;
+  height: 150px;
+  font-family: 'Lucida Console', monospace;
+}
+
+form {
+  text-align: center;
+  background: #555;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 40px;
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+#registrati {
+  font-size: 25px;
+}
+
+#registrati a{
+    color: lightblue;
+    margin-top: 10px;
+}
+
+.errore {
+  color: red;
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+
+#email_er,
+#nome_er,
+#password_er,
+#cognome_er,
+#conferma_password_er {
+  color: red;
+}
+
+#accedi {
+  font-size: 25px;
+}
+
+#accedi a{
+  color: lightblue;
+}
